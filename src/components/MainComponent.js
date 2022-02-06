@@ -72,13 +72,14 @@ export default function MainComponent(props) {
                         <p>There are two main pages, <b>the landing page</b> and <b>API test page</b> </p>
                         <p>On main page I am using three components. Based on the screen size the components are mounted  </p>
                         <p>One can test the APIs by navigating to API Test screen </p>
-                        <p>github link:</p>
+                        <p>github link: <b>https://github.com/orkhi/precily_frontend_demo</b> </p>
                         <Typography variant="h6" sx={{ color: "#2061AE" }}>
                             Back End Note:
                         </Typography>
                         <p>I have used express framework and Mongo DB atlas cloud for this demo. Also I am hosting the backend code in my digitalocean droplet</p>
                         <p>There are three APIs basically to <b>Add</b>, <b>Update</b> and <b>Count</b></p>
                         <p>Regarding the response time, I have used a middleware in express that sets a <b>X-Response-Time header</b> in the API response </p>
+                        <p>github link: <b>https://github.com/orkhi/precily_demo_backend.git</b> </p>
                     </DialogContent>
 
 
